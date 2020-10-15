@@ -1,0 +1,50 @@
+.StartReact {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Color {
+    height: 300px;
+    width: 600px;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Select-Color {
+    display: flex;
+    flex-direction: column;
+}
+
+.Select-Color button {
+    height: 30px;
+    width: 200px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.Vermelho {
+    background-color: rgb(236, 80, 80);
+}
+.Laranja {
+    background-color: rgb(247, 116, 69);
+}
+.Amarelo {
+    background-color: rgb(238, 238, 92);
+}
+.Verde {
+    background-color:rgb(144, 238, 144);
+}
+.Azul {
+    background-color: rgb(133, 205, 250);
+}
+.Roxo {
+    background-color: rgb(140, 90, 205);
+}
