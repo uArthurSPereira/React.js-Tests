@@ -20,13 +20,13 @@ export default function Inicial() {
 
       <div className="Container-Links">
 
-        <Link to="">
+        <Link to="primeiro-contato-react">
           <button className="PCR"> Primeiro Contato com React </button>
         </Link>
         
         <div className="Container-Links-Secundario">
 
-          <Link to="">
+          <Link to="drag-n-drop">
             <button className="TDND"> Test Drag N' Drop </button>
           </Link>
 
@@ -38,11 +38,11 @@ export default function Inicial() {
 
         <div className="Container-Links-Secundario">
 
-          <Link to="">
+          <Link to="lista-negra">
             <button className="LN"> Lista Negra </button>
           </Link>
           
-          <Link to="">
+          <Link to="lista-fofa">
             <button className="LF"> Lista Fofa </button>
           </Link>
 
@@ -50,11 +50,11 @@ export default function Inicial() {
 
         <div className="Container-Links-Secundario">
 
-          <Link to="">
+          <Link to="memelation">
             <button className="ML"> Memelation </button>
           </Link>
 
-          <Link to="">
+          <Link to="organizer">
             <button className="OZ"> Test Organizer </button>
           </Link>
 

@@ -19,9 +19,13 @@
 .PCR{
     height: 100px;
     width: 1200px;
+    margin: 15px;
+    background-color: rgba(236, 232, 232, 0.7);
+    border-radius: 10px;
+    border-color: transparent;
 }
 
-button {
+.TDND, .TPU,.LN, .LF, .ML, .OZ {
     height: 100px;
     width: 585px;
     margin: 15px;

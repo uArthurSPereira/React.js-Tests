@@ -1,0 +1,112 @@
+.Modal{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .Container {
+        background-color: #ffffff;
+        color: #000000;
+        height: 90%;
+        width: 30%;
+        border-radius: 10px;
+        border-color: transparent;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .Cor-Pop-Up {
+            width: 100%;
+            height: 15px;
+            background-color: rgb(250, 250, 161);
+            border-radius: 10px;
+        }
+
+        .Input-Title input{
+            margin-top: 30px;
+            margin-bottom: 5px;
+            height: 40px;
+            width: 380px;
+        }
+
+        .Input-Time {
+            height: 40px;
+            width: 115px;
+            margin: 15px;
+        }
+
+        .Input-Date {
+            height: 40px;
+            width: 150px;
+            margin: 15px;
+        }
+
+        .Color {
+            border: none;
+            border-radius: 5px;
+            height: 40px;
+            width: 50px;
+            margin: 15px;
+            background-color: rgb(250, 250, 161);
+        }
+
+        .Input-Descricao {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .Input-Descricao input {
+            height: 150px;
+            width: 380px;
+        }
+
+        .Container-Checkbox {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid black;
+            height: 100px;
+            width: 380px;
+            margin: 15px;
+            margin-bottom: 70px;
+        }
+
+        .AddItem {
+            border: none;
+            border-radius: 5px;
+            height: 40px;
+            width: 150px;
+            margin: 15px;
+            background-color: lightskyblue;
+        }
+
+        .Delete {
+            background-color: rgb(233, 113, 113);
+            outline: none;
+            border: none;
+            border-radius: 5px;
+            height: 40px;
+            width: 75px;
+            margin: 15px;
+            margin-right: 110px;
+            cursor: pointer;
+        }
+
+        .Close {
+            background-color: lightgreen;
+            outline: none;
+            border: none;
+            border-radius: 5px;
+            height: 40px;
+            width: 75px;
+            margin: 15px;
+            margin-left: 110px;
+            cursor: pointer;
+        }
+    }
+}
