@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-import Modal from '../../Components/Modal'
+import Modal from '../../Components/Modal/Modal'
 
 import './Pop-up.css';
 

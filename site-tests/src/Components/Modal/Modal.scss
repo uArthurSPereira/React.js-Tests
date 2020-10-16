@@ -33,16 +33,23 @@
             width: 380px;
         }
 
+        .Inputs {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+
         .Input-Time {
             height: 40px;
             width: 115px;
-            margin: 15px;
+            margin: 10px;
         }
 
         .Input-Date {
             height: 40px;
             width: 150px;
-            margin: 15px;
+            margin: 10px;
         }
 
         .Color {
@@ -50,7 +57,7 @@
             border-radius: 5px;
             height: 40px;
             width: 50px;
-            margin: 15px;
+            margin: 10px;
             background-color: rgb(250, 250, 161);
         }
 
@@ -73,7 +80,7 @@
             height: 100px;
             width: 380px;
             margin: 15px;
-            margin-bottom: 70px;
+            margin-bottom: 50px;
         }
 
         .AddItem {
